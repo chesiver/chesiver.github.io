@@ -133,6 +133,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _layouts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
