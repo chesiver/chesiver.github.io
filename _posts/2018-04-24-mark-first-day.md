@@ -1,5 +1,5 @@
 ---
-title: "Celeberate my first day to use Github Page"
+title: "Celebrate my first day to use Github Page"
 categories: 
   - Emotion
 ---
