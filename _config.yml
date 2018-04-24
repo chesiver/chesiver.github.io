@@ -98,19 +98,19 @@ analytics:
 # Site Author
 author:
   name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  avatar           : "/assets/image/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "MSCS in Georgia Tech; Oracle"
+  location         : "Atlanta"
+  email            : "ljchesiver@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "chesiver"
   foursquare       :
-  github           :
+  github           : "chesiver"
   gitlab           :
   google_plus      :
   keybase          :
