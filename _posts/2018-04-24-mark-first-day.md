@@ -4,4 +4,4 @@ categories:
   - Emotion
 ---
 
-For the celeberation of my first day on Github Page!
+For the celebration of my first day on Github Page!
