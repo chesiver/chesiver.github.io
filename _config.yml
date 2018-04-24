@@ -97,10 +97,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Adam Liu"
   avatar           : "/assets/image/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MSCS in Georgia Tech; Oracle"
-  location         : "Atlanta"
+  location         : "Atlanta, US; Zhejiang, China"
   email            : "ljchesiver@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
