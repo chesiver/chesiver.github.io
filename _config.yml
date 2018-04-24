@@ -100,7 +100,7 @@ author:
   name             : "Adam Liu"
   avatar           : "/assets/image/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MSCS in Georgia Tech; Oracle"
-  location         : "Atlanta, US; Zhejiang, China"
+  location         : "Atlanta"
   email            : "ljchesiver@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
