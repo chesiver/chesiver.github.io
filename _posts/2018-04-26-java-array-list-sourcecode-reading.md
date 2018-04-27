@@ -90,5 +90,6 @@ categories:
     }
 ```
 * The growing factor of ArrayList is 1.5.
+* If 1.5X old capacity is still small than desired capacity, then set new capacity as desired minCapacity.
 * MAX_ARRAY_SIZE is a little smaller than Integer.MAX_VALUE, which reserves some space for header words in VM.
 * If MAX_ARRAY_SIZE < minCapacity < Integer.MAX_VALUE, it tries to grow to length of Integer.MAX_VALUE. Looks weird.
