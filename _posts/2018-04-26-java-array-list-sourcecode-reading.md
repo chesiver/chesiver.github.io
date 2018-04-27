@@ -1,3 +1,9 @@
+---
+title: "Java ArrayList Source Code Reading"
+categories: 
+  - Java Source Code
+---
+
 ## Static Variable
 ```java
     /**
