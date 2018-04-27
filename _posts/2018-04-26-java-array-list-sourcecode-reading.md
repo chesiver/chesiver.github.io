@@ -1,13 +1,6 @@
----
-title: "ArrayList Source Code Notes"
-categories: 
-  - JAVA Source Code
----
-
-
-### Static Variable
+## Static Variable
 ```java
-	/**
+    /**
      * Default initial capacity.
      */
     private static final int DEFAULT_CAPACITY = 10;
@@ -25,11 +18,10 @@ categories:
     private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
 ```
 
-### Construction
 
-### Ensure Capacity
+## Ensure Capacity
 ```java
-	public void ensureCapacity(int minCapacity) {
+    public void ensureCapacity(int minCapacity) {
         int minExpand = (elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA)
             // any size if not default element table
             ? 0
@@ -58,12 +50,12 @@ categories:
         ensureExplicitCapacity(minCapacity);
     }
 ```
-* ensureCapacityInternal is used in add/addAll and readObject. From the code we know an default-construct ArrayList has minimum capacity of 10.
+* ensureCapacityInternal is used in add/addAll and readObject. From the code we know an default-construct ArrayList, when added with 1 object, will have minimum capacity of 10.
 
-### Grow Capacity
+## Grow Capacity
 
 ```java
-	private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
+    private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
     
     /**
      * Increases the capacity to ensure that it can hold at least the
@@ -71,8 +63,8 @@ categories:
      *
      * @param minCapacity the desired minimum capacity
      */
-	private void grow(int minCapacity) {
-		// overflow-conscious code
+    private void grow(int minCapacity) {
+        // overflow-conscious code
         int oldCapacity = elementData.length;
         int newCapacity = oldCapacity + (oldCapacity >> 1);
         if (newCapacity - minCapacity < 0)
