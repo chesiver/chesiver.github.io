@@ -1,7 +1,7 @@
 ---
 title: "Add d3 examples"
 categories: 
-  - D3 Examplle
+  - D3 Example
 ---
 
 Add some d3 example!
